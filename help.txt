@@ -1,0 +1,22 @@
+
+How To Play ArachnoPhobia:
+--------------------------
+
+1. The World: The world is rectangular and is specified by its size: width, height, which is passed through specification file to the game. There is a base that occupies the baskets and the canoon. The world does not change once it is created, while all other object listed below may move.
+
+2. Spiders: There are three kinds of spiders; red, green and black colored. The spiders randomly appear at the top end of the world and move towards the base at a constant speed. Any spider that comes in contact with a laser ray will be destroyed immediately. If a spider reaches the base and it encounters a basket, it enters the basket and disappears. If it reaches the base, the user loses 5 points and it blocks that space. The speed of the spider varies between minSpeed and maxSpeed and is decided randomly when it is created, according to the difficulty level. Once created, the spider moves at this fixed speed. The spiders are killed only when laser hits their body from the front or sides. If the laser hits the spiders legs or eyes only, the spider won't be killed.
+
+3. Baskets: There are two baskets at the base: red and green. They are at the left and right ends of the base when the game starts. We can select a red or green basket by pressing r and g buttons respectively and move a selected basket one position to left or right by pressing left or right arrow key. If a red basket captures a red spider or if a green basket captures a green spider, we gain 1 point. If a basket captures a spider of any other color, we lose 1 point. 
+
+4. Cannon: The cannon starts at the middle of the base and it can be selected by the b button. It may be moved left or right by the arrow keys as in the case of the baskets. It may also be turned left or right by the up and down arrow keys or by clicking and dragging the right mouse button. The space bar OR left mouse button is used to shoot a laser ray in the direction pointed to by the cannon. If a spider lands on the cannon, the game is over.
+
+5. Laser beam: When we press the space bar, a ray of light emanates out of the cannon. It moves forward at a high speed, reflects if it hits the sides of the world, and exits out if it reaches the far end of the world. If a laser shot destroys a black spider, we get 1 point and that laser ray is terminated. Once we shoot a laser ray, the canon takes 1 second to recharge, and then only we can shoot again. 
+
+Objective : 
+-----------
+
+1. To shoot as many black spiders as possible,
+2. Score the colored spiders in the corresponding baskets, and
+3. Prevent spiders from reaching the base, using lasers and baskets.
+
+
